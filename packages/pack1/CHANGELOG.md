@@ -3,6 +3,17 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+## [0.1.3-alpha.3](https://github.com/Hooked74/test-lerna/compare/v0.1.3-alpha.2...v0.1.3-alpha.3) (2021-09-13)
+
+
+### Bug Fixes
+
+* **MTSAFISHA-234:** update readme ([a105e80](https://github.com/Hooked74/test-lerna/commit/a105e80833ac14ea178ffd37b4b814fed232df16))
+
+
+
+
+
 ## [0.1.3-alpha.2](https://github.com/Hooked74/test-lerna/compare/v0.1.3-alpha.1...v0.1.3-alpha.2) (2021-09-13)
 
 
