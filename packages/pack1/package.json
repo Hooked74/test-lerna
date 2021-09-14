@@ -1,5 +1,5 @@
 {
-  "name": "@test-lerna/pack1",
+  "name": "test-lerna-pack1",
   "version": "0.1.5",
   "description": "OMG description123",
   "author": "Новиков Игорь <novikovio74@gmail.com>",
@@ -16,7 +16,7 @@
   "scripts": {
     "test": "echo \"run tests\""
   },
-  "gitHead": "42d120120fd6af975442861cd436098a560c64f7",
+  "gitHead": "911b98a05a88da610f5d0d4fe468edd5810ec826",
   "publishConfig": {
     "access": "public"
   }
