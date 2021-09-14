@@ -7,7 +7,10 @@
     "start-affected": "lerna run start --since --stream",
     "docker-build": "lerna run docker-build --stream --loglevel warn",
     "pinstall": "lerna add",
-    "start1": "lerna run start --scope test-lerna-pack1"
+    "start1": "lerna run start --scope test-lerna-pack1",
+    "publish-dev": "npx lerna publish prerelease --conventional-commits --changelog-preset angular-bitbucket",
+    "publish-stage": "npx lerna publish prerelease --conventional-commits --changelog-preset angular-bitbucket --preid beta",
+    "publish-prod": "npx lerna publish prerelease --conventional-commits --changelog-preset angular-bitbucket --preid beta"
   },
   "devDependencies": {
     "lerna": "^4.0.0"
