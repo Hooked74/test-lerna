@@ -20,5 +20,8 @@
   "gitHead": "911b98a05a88da610f5d0d4fe468edd5810ec826",
   "publishConfig": {
     "access": "public"
+  },
+  "dependencies": {
+    "chalk": "^4.1.2"
   }
 }
