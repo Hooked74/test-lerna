@@ -15,7 +15,7 @@
   ],
   "scripts": {
     "start": "node ./lib/pack1",
-    "build": "echo \"build process of pack123\"",
+    "build": "echo \"build process of pack1234\"",
     "docker-build": "docker build -f Dockerfile -t pack1 ../../",
     "test": "echo \"run tests\""
   },
