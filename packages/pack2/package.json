@@ -1,5 +1,5 @@
 {
-  "name": "pack2",
+  "name": "@test-lerna/pack2",
   "version": "0.1.3-alpha.0",
   "description": "Some description13",
   "author": "Новиков Игорь <novikovio74@gmail.com>",
