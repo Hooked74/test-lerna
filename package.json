@@ -8,10 +8,14 @@
     "docker-build": "lerna run docker-build --stream --loglevel warn",
     "pinstall": "lerna add",
     "start1": "lerna run start --scope test-lerna-pack1",
-    "publish-dev": "npx lerna publish prerelease --conventional-commits --changelog-preset angular-bitbucket",
-    "publish-stage": "npx lerna publish prerelease --conventional-commits --changelog-preset angular-bitbucket --preid beta",
-    "publish-prod": "npx lerna publish prerelease --conventional-commits --changelog-preset angular-bitbucket --preid beta"
+    "publish-dev": "npx lerna publish prerelease --conventional-commits --changelog-preset angular-bitbucket -y",
+    "publish-stage": "npx lerna publish prerelease --conventional-commits --changelog-preset angular-bitbucket --preid beta -y",
+    "publish-prod": "npx lerna publish patch --conventional-commits --changelog-preset angular-bitbucket -y"
   },
+  "//": [
+    "prerelease по умолчанию для веток develop и release (можно передать в коммите мерджа `(prerelease|prepatch|preminor|premajor)` )",
+    "patch по умолчанию для main ветки (можно передать в коммите мерджа `(patch|minor|major)` )"
+  ],
   "devDependencies": {
     "lerna": "^4.0.0"
   },
