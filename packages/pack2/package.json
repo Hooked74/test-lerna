@@ -1,6 +1,6 @@
 {
   "name": "test-lerna-pack2",
-  "version": "0.1.6",
+  "version": "0.1.7",
   "description": "Some description13",
   "author": "Новиков Игорь <novikovio74@gmail.com>",
   "homepage": "",
@@ -22,6 +22,6 @@
     "access": "public"
   },
   "dependencies": {
-    "test-lerna-pack1": "^0.1.6"
+    "test-lerna-pack1": "^0.1.7"
   }
 }
