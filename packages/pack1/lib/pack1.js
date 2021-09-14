@@ -7,7 +7,7 @@ const pack3 = require("test-lerna-pack3");
 module.exports = pack1;
 
 function pack1() {
-  return "render-packk1";
+  return "render-packkk1";
 }
 
 console.log(pack3());
