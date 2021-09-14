@@ -14,6 +14,7 @@
     "lib"
   ],
   "scripts": {
+    "start": "node ./lib/pack1",
     "test": "echo \"run tests\""
   },
   "gitHead": "911b98a05a88da610f5d0d4fe468edd5810ec826",

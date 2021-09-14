@@ -1,10 +1,14 @@
 {
   "name": "test-lerna",
   "private": true,
+  "scripts": {
+    "start1": "lerna run start --scope test-lerna-pack1"
+  },
   "devDependencies": {
     "lerna": "^4.0.0"
   },
   "dependencies": {
+    "consola": "^2.15.3",
     "lerna-wizard": "^1.1.1"
   }
 }

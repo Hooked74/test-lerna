@@ -14,10 +14,14 @@
     "lib"
   ],
   "scripts": {
+    "start": "node ./lib/pack2",
     "test": "echo \"Error: run tests from root\" && exit 1"
   },
   "gitHead": "911b98a05a88da610f5d0d4fe468edd5810ec826",
   "publishConfig": {
     "access": "public"
+  },
+  "dependencies": {
+    "test-lerna-pack1": "^0.1.6"
   }
 }
