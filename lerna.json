@@ -1,6 +1,5 @@
 {
-  "packages": [
-    "packages/*"
-  ],
-  "version": "0.1.14-beta.0"
+  "packages": ["packages/*"],
+  "version": "0.1.14-beta.0",
+  "ignoreChanges": ["**/__fixtures__/**", "**/__tests__/**", "**/*.md"]
 }
