@@ -1,6 +1,6 @@
 {
   "name": "test-lerna-pack4",
-  "version": "0.0.0",
+  "version": "0.1.15-beta.1",
   "scripts": {
     "dev": "vite",
     "build": "tsc && vite build",
@@ -9,8 +9,8 @@
   "dependencies": {
     "react": "^17.0.0",
     "react-dom": "^17.0.0",
-    "test-lerna-pack3": "^0.1.0",
-    "test-lerna-pack5": "^0.1.15-beta.0"
+    "test-lerna-pack3": "^0.1.15-beta.1",
+    "test-lerna-pack5": "^0.1.15-beta.1"
   },
   "devDependencies": {
     "@types/react": "^17.0.0",
