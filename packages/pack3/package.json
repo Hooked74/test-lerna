@@ -21,7 +21,7 @@
   },
   "scripts": {
     "start": "node ./lib/pack3",
-    "test": "echo \"Error: run tests from root\" && exit 1"
+    "test": "echo \"Error: run tests from root3\" && exit 1"
   },
   "bugs": {
     "url": "https://github.com/Hooked74/test-lerna/issues"
