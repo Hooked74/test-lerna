@@ -1,13 +1,13 @@
 {
-  "name": "test-lerna-pack3",
-  "version": "0.1.11",
+  "name": "test-lerna-pack5",
+  "version": "0.1.15-beta.0",
   "description": "> TODO: description",
   "author": "Новиков Игорь <novikovio74@gmail.com>",
   "homepage": "https://github.com/Hooked74/test-lerna#readme",
   "license": "ISC",
-  "main": "lib/pack3.js",
-  "module": "lib/pack3.module.ts",
-  "types": "lib/pack3.module.ts",
+  "main": "lib/pack5.js",
+  "module": "lib/pack5.module.ts",
+  "types": "lib/pack5.module.ts",
   "directories": {
     "lib": "lib",
     "test": "__tests__"
@@ -20,16 +20,9 @@
     "url": "git+https://github.com/Hooked74/test-lerna.git"
   },
   "scripts": {
-    "start": "node ./lib/pack3",
     "test": "echo \"Error: run tests from root\" && exit 1"
   },
   "bugs": {
     "url": "https://github.com/Hooked74/test-lerna/issues"
-  },
-  "publishConfig": {
-    "access": "public"
-  },
-  "dependencies": {
-    "chalk": "^4.1.2"
   }
 }

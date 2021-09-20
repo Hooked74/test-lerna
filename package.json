@@ -24,6 +24,7 @@
     "@mts-ds/base": "^1.9.0",
     "consola": "^2.15.3",
     "lerna-wizard": "^1.1.1",
-    "mts-components": "^0.3.58"
+    "mts-components": "^0.3.58",
+    "vite": "^2.5.10"
   }
 }
