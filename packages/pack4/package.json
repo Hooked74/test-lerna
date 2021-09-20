@@ -9,7 +9,7 @@
   "dependencies": {
     "react": "^17.0.0",
     "react-dom": "^17.0.0",
-    "test-lerna-pack3": "^0.1.15",
+    "test-lerna-pack3": "^0.1.15-beta.1",
     "test-lerna-pack5": "^0.1.15-beta.1"
   },
   "devDependencies": {

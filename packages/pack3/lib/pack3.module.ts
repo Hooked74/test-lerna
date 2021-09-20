@@ -8,7 +8,7 @@ enum OLOLO {
 }
 
 function pack3(): string {
-  return "ololo pack314";
+  return "ololo pack314 test";
 }
 
 console.log("pack3");
