@@ -5,9 +5,8 @@
   "author": "Новиков Игорь <novikovio74@gmail.com>",
   "homepage": "https://github.com/Hooked74/test-lerna#readme",
   "license": "ISC",
-  "main": "lib/pack3.js",
+  "main": "lib/pack3.module.ts",
   "module": "lib/pack3.module.ts",
-  "types": "lib/pack3.module.ts",
   "directories": {
     "lib": "lib",
     "test": "__tests__"
